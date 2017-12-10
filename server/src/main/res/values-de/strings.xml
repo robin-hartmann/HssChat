@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HSS Chat Server</string>
+    <string name="twServerStatusCheck">Überprüfe Server Status…</string>
+    <string name="twServerStatusRunning">Online unter \'%1$s\'</string>
+    <string name="twServerStatusStopped">Offline</string>
+    <string name="btToggleServerStart">Starten</string>
+    <string name="btToggleServerStop">Stoppen</string>
+</resources>

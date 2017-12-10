@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HSS Chat Client</string>
+    <string name="etText">Benutzername</string>
+    <string name="enterIp">Server Adresse</string>
+    <string name="enterPort">Server Port</string>
+    <string name="etEnterMsg">Nachricht</string>
+    <string name="switchOnline">online</string>
+    <string name="btSend">Weiter</string>
+    <string name="btConfirm">Bestätigen</string>
+    <string name="dialogOk">OK</string>
+    <string name="progressConnectTitle">Verbinde…</string>
+    <string name="progressConnectMessage">Verbindung zum Server wird hergestellt…</string>
+    <string name="alertConnectErrorTitle">Fehler beim Verbindungsaufbau</string>
+    <string name="alertConnectErrorMessage">Der Server konnte nicht erreicht werden. Bitte überprüfen Sie Ihre Angaben.</string>
+    <string name="toastInvalidIpAndPort">Bitte geben Sie eine gültige IP-Adresse und eine gültige Port-Nummer ein.</string>
+    <string name="toastInvalidIp">Bitte geben Sie eine gültige IP-Adresse ein.</string>
+    <string name="toastInvalidPort">Bitte geben Sie eine gültige Port-Nummer ein.</string>
+    <string name="alertSendErrorTitle">Fehler beim Übertragen der Nachricht</string>
+    <string name="alertSendErrorMessage">Ihre Nachricht konnte nicht übertragen werden.</string>
+    <string name="alertClearChatTitle">Chatverlauf löschen?</string>
+    <string name="alertClearChatMessage">Soll der Chatverlauf endgültig gelöscht werden?</string>
+    <string name="dialogYes">Ja</string>
+    <string name="dialogNo">Nein</string>
+    <string name="alertListenErrorTitle">Fehler beim Abrufen der Nachrichten</string>
+    <string name="alertListenErrorMessage">Beim Abrufen der Nachrichten ist ein Fehler aufgetreten.</string>
+    <string name="toastInvalidNickname">Bitte geben Sie einen Benutzernamen ein.</string>
+</resources>

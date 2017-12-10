@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#0B8000</item>
+        <item name="colorPrimaryDark">#1D9A10</item>
+        <item name="colorAccent">#0B8000</item>
+    </style>-->
+
+   <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">#0B8000</item>
+        <item name="colorPrimaryDark">#1D9A10</item>
+        <item name="colorAccent">#0B8000</item>
+   </style>
+
+    <style name="textBoxRight">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="textBoxLeft">
+        <item name="android:gravity">left</item>
+    </style>
+</resources>

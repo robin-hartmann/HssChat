@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HSS Chat Client</string>
+    <string name="etText">Nickname</string>
+    <string name="enterIp">Server address</string>
+    <string name="enterPort">Server port</string>
+    <string name="etEnterMsg">Message</string>
+    <string name="switchOnline">online</string>
+    <string name="btSend">Continue</string>
+    <string name="btConfirm">Confirm</string>
+    <string name="dialogOk">OK</string>
+    <string name="progressConnectTitle">Connecting…</string>
+    <string name="progressConnectMessage">Connecting to server…</string>
+    <string name="alertConnectErrorTitle">Error while establishing connection</string>
+    <string name="alertConnectErrorMessage">The server could not be reached. Please verify your data.</string>
+    <string name="toastInvalidIpAndPort">Please enter a valid IP address and a valid port number.</string>
+    <string name="toastInvalidIp">Please enter a valid IP address.</string>
+    <string name="toastInvalidPort">Please enter a valid port number.</string>
+    <string name="alertSendErrorTitle">Error while transmitting message</string>
+    <string name="alertSendErrorMessage">Your message could not be transmitted.</string>
+    <string name="alertClearChatTitle">Delete chat history?</string>
+    <string name="alertClearChatMessage">Do you want to permanently delete your chat history?</string>
+    <string name="dialogYes">Yes</string>
+    <string name="dialogNo">No</string>
+    <string name="alertListenErrorTitle">Error while fetching messages</string>
+    <string name="alertListenErrorMessage">An error occured while fetching messages.</string>
+    <string name="toastInvalidNickname">Please enter a nickname.</string>
+</resources>

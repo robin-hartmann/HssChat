@@ -21,7 +21,6 @@ out/
 
 # Gradle files
 .gradle
-.gradle/
 build/
 
 # Signing files
@@ -37,11 +36,7 @@ proguard/
 *.log
 
 # Android Studio
-/*/build/
-/*/local.properties
-/*/out
-/*/*/build
-/*/*/production
+production/
 captures/
 .navigation/
 *.ipr
@@ -60,27 +55,26 @@ obj/
 # IntelliJ IDEA
 *.iml
 *.iws
-/out/
 
 # User-specific configurations
-.idea/libraries/
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/profiles_settings.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/scopes/scope_settings.xml
-.idea/dictionaries
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
-.idea/datasources.xml
-.idea/dataSources.ids
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
+**/.idea/libraries/
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/.name
+**/.idea/compiler.xml
+**/.idea/copyright/profiles_settings.xml
+**/.idea/encodings.xml
+**/.idea/misc.xml
+**/.idea/modules.xml
+**/.idea/scopes/scope_settings.xml
+**/.idea/dictionaries
+**/.idea/vcs.xml
+**/.idea/jsLibraryMappings.xml
+**/.idea/datasources.xml
+**/.idea/dataSources.ids
+**/.idea/sqlDataSources.xml
+**/.idea/dynamic.xml
+**/.idea/uiDesigner.xml
 
 # OS-specific files
 .DS_Store
@@ -114,7 +108,7 @@ hs_err_pid*
 atlassian-ide-plugin.xml
 
 # Mongo Explorer plugin
-.idea/mongoSettings.xml
+**/.idea/mongoSettings.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -129,4 +123,4 @@ fabric.properties
 # End of https://www.gitignore.io/api/androidstudio
 
 # Buildship settings (generated when using VS Code)
-**/.settings/
+.settings/
