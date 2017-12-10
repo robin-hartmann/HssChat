@@ -5,5 +5,4 @@
     <string name="twServerStatusStopped">Offline</string>
     <string name="btToggleServerStart">Start</string>
     <string name="btToggleServerStop">Stop</string>
-    <string name="app_name">HSS Chat Server</string>
 </resources>
