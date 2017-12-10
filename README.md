@@ -11,6 +11,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [Android Studio](https://developer.android.com/studio/index.html) - The Official IDE for Android
 
+### Setup
+
+To use the PC Client, you need to add a Run Configuration of type `Application` with the following details:
+
+* Name: `client_pc`
+* Main class: `de.hss.sae.sue.chat.client_pc.PcClient`
+* Program arguments: `<server-address>:<server-port>`
+* Use classpath of module: `client_pc`
+
 ### Troubleshooting
 
 #### Q: How do I get the app to run? It just opens the "Edit configuration" dialog with "Error: Please select Android SDK". 
