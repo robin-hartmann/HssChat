@@ -10,13 +10,19 @@ public class PcClient {
     private ObjectInputStream in = null;
 
     public static void main(String args[]) {
-        new PcClient();
+        String endpoint = args[0];
+        String[] segments = endpoint.split(":");
+
+        String address = segments[0];
+        int port = Integer.parseInt(segments[1]);
+
+        new PcClient(address, port);
     }
 
-    public PcClient() {
+    public PcClient(String address, int port) {
         try {
             System.out.print("Connecting to server...\n");
-            Socket socket = new Socket("192.168.178.26", 16567);
+            Socket socket = new Socket(address, port);
 
             System.out.print("Getting streams...\n");
             ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());
