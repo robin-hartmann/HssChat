@@ -28,7 +28,7 @@ class SendRunnable extends MessagingRunnable {
         try {
             out = MessagingService.getInstance().getOutputStream();
         } catch (IOException e) {
-            Log.e(this.getClass().toString(), "Error writing getting output stream", e);
+            Log.e(this.getClass().toString(), "Error getting output stream.", e);
             stateHandler.sendMessage(stateHandler.obtainMessage(MessagingService.STATE_ERROR, e));
             return;
         }
@@ -36,7 +36,7 @@ class SendRunnable extends MessagingRunnable {
         try {
             out.writeObject(message);
         } catch (IOException e) {
-            Log.e(this.getClass().toString(), "Error writing to output stream", e);
+            Log.e(this.getClass().toString(), "Error writing to output stream.", e);
             stateHandler.sendMessage(stateHandler.obtainMessage(MessagingService.STATE_ERROR, e));
             return;
         }
