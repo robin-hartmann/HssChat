@@ -61,13 +61,13 @@ public class MessagingService {
 
     public void send(Message message, Handler stateHandler) {
         if (!isConnected())
-            throw new IllegalStateException("The MessagingService needs to be connect first, in order to send a message.");
+            throw new IllegalStateException("The MessagingService needs to be connected first, in order to send a message.");
         new WorkerThread("Send Worker", new SendRunnable(client, stateHandler, message)).start();
     }
 
     public void startListener(Context context, Handler stateHandler) {
         if (!isConnected())
-            throw new IllegalStateException("The MessagingService needs to be connect first, in order to start listening for messages.");
+            throw new IllegalStateException("The MessagingService needs to be connected first, in order to start listening for messages.");
         if (isListenerRunning()) throw new IllegalStateException("The listener is already running.");
         new WorkerThread("Listen Worker", new ListenRunnable(client, stateHandler, context)).start();
     }
@@ -82,7 +82,7 @@ public class MessagingService {
 
     ObjectInputStream getInputStream() throws IOException {
         if (!isConnected())
-            throw new IllegalStateException("The MessagingService needs to be connect first, in order to get the input stream.");
+            throw new IllegalStateException("The MessagingService needs to be connected first, in order to get the input stream.");
         if (in == null)
             in = new ObjectInputStream(client.getInputStream());
         return in;
@@ -90,7 +90,7 @@ public class MessagingService {
 
     ObjectOutputStream getOutputStream() throws IOException {
         if (!isConnected())
-            throw new IllegalStateException("The MessagingService needs to be connect first, in order to get the output stream.");
+            throw new IllegalStateException("The MessagingService needs to be connected first, in order to get the output stream.");
         if (out == null)
             out = new ObjectOutputStream(client.getOutputStream());
         return out;
