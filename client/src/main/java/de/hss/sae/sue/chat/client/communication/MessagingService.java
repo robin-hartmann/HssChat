@@ -41,7 +41,7 @@ public class MessagingService {
         if (isConnected())
             throw new IllegalStateException("The MessagingService is already connected.");
         client = new Socket();
-        new WorkerThread("Connect Worker.", new ConnectRunnable(client, stateHandler, ip, port)).start();
+        new WorkerThread("Connect Worker", new ConnectRunnable(client, stateHandler, ip, port)).start();
     }
 
     public void disconnect() {
