@@ -39,7 +39,7 @@ Just copy over the apk of the client and/or server and install it.
 
 * **Alexander Berndt**
   * *Client - Design, Interface*
-* **Robin Hartmann** - [RobinHartmann](https://github.com/RobinHartmann)
+* **Robin Hartmann** - [robin-hartmann](https://github.com/robin-hartmann)
   * *Client - Communication, Threading*
   * *Server*
   * *PC Client*
