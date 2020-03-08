@@ -52,7 +52,7 @@ Just sync gradle by clicking <img src="docs/images/toolbar-sync-gradle.png" heig
 
 ## 📃 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👍 Acknowledgments
 
