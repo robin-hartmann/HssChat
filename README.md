@@ -1,5 +1,5 @@
 # 💬 HssChat
-Chat client and server for Android
+Chat client and server for Android (educational project)
 
 <img src="docs/images/client-chat-activity.png" height="700"> <img src="docs/images/server-main-activity.png" height="700">
 
