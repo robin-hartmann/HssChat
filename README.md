@@ -50,7 +50,7 @@ Just sync gradle by clicking <img src="docs/images/toolbar-sync-gradle.png" heig
 - **Kevin Landsberg** - [KevinLandsberg](https://github.com/KevinLandsberg)
   - _Client - Design, Interface_
 - **Frederik Ried**
-  - _Client - Local Strorage, Database_
+  - _Client - Local Storage, Database_
 
 ## 📃 License
 
